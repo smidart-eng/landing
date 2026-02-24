@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F7F8FA"/>
+  <rect x="60" y="60" width="6" height="510" fill="#183A8A" rx="3"/>
+  <text x="100" y="200" font-family="Arial, sans-serif" font-size="64" font-weight="700" fill="#0B0F17">Артём Смидюк</text>
+  <text x="100" y="280" font-family="Arial, sans-serif" font-size="32" fill="#5B6475">Аудит и построение отдела продаж</text>
+  <text x="100" y="380" font-family="Arial, sans-serif" font-size="28" fill="#183A8A">14+ лет · 150+ продавцов · рост 20–30% YoY</text>
+  <text x="100" y="540" font-family="Arial, sans-serif" font-size="24" fill="#0F8A6A">smidart.t.me</text>
+</svg>
