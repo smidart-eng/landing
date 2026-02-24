@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #F7F8FA;
+  --card: #FFFFFF;
+  --text: #0B0F17;
+  --muted: #5B6475;
+  --border: #E6E8EE;
+  --primary: #183A8A;
+  --primary-hover: #142F6F;
+  --accent: #0F8A6A;
+  --accent-hover: #0C7459;
+  --focus-ring: rgba(24, 58, 138, 0.25);
+  --radius-card: 16px;
+  --radius-pill: 999px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+::selection {
+  background: var(--primary);
+  color: #fff;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text);
+  }
+}
